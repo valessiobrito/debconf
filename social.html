@@ -1,0 +1,52 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>DebConf17</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Social-feed css -->
+<link href="bower_components/social-feed/css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+<!-- font-awesome for social network icons -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<!-- jQuery -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Codebird.js - required for TWITTER -->
+<script src="bower_components/codebird-js/codebird.js"></script>
+<!-- doT.js for rendering templates -->
+<script src="bower_components/doT/doT.min.js"></script>
+<!-- Moment.js for showing "time ago" and/or "date"-->
+<script src="bower_components/moment/min/moment.min.js"></script>
+<!-- Moment Locale to format the date to your language (eg. italian lang)-->
+<script src="bower_components/moment/locale/it.js"></script>
+<!-- Social-feed js -->
+<script src="bower_components/social-feed/js/jquery.socialfeed.js"></script>
+</head>
+<style>
+</style>
+<body>
+
+<div class="social-feed-container"></div>
+
+<script>
+ $(document).ready(function(){
+        $('.social-feed-container').socialfeed({
+            // INSTAGRAM
+            instagram:{
+                accounts: ['#debconf','#debconf17'], 
+                limit: 2,
+                client_id: '0922c055ebf74fccb7e7cb8016352986',
+                access_token: ' a9d8f12ab640468dac160dc32812db08' 
+            },
+ // TWITTER
+    twitter:{
+        accounts: ['@debconf','#debconf17'],
+        limit: 4,
+        consumer_key: 'uj4Jabfx5NDNaMr3tw8VzNDYU',
+        consumer_secret: 'mn2OFtPGtQpVzvQq1uEnOBInn8rzDPz12sLmsXHvnfljdcFGQW'
+     },
+
+            length:400
+        });
+    });
+</script>
+</body></html>
