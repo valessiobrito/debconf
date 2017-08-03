@@ -15,10 +15,15 @@
 <body>
     
 <div class="navbar navbar-static-top">
-  <div class="container-fluid">
+  <div class="container-fluid"> 
     <div class="navbar-header">
       <a class="navbar-brand" href="#">#DebConf17</a>
     </div>
+ 
+      <div class="nav navbar-brand navbar-nav navbar-right">
+	  <div class="clock"></div>
+      </div>
+    
       <div class="navbar-collapse collapse" id="wafer-navbar-collapse">
         <ul class="nav navbar-nav">
         
@@ -35,10 +40,10 @@
     </ul>
   </div>
 </div>
-
         
-        </ul>
-      </div>
+	</ul> <!-- ul-nav-bar -->
+      </div> <!-- colapse -->
+
   </div>
 </div>
 
@@ -50,7 +55,7 @@
 
 <div class="col-lg-4" style="border-top: #1b75bc solid 4px; border-radius: 30px; border-bottom: #DDD solid 4px;">
 <h4 style="color: #1b75bc; margin-top: -22px; text-align: center;">Mastodon and Twitter posts #DebConf17</h4>
-<iframe src='https://collab.debian.net/social/' frameborder='0' width='100%' height='450' scrolling="no" style="display:block; margin:0 auto; overflow: none; border: none; outline: none;" frameBorder="0"></iframe>
+<iframe src='https://collab.debian.net/social/' frameborder='0' width='100%' height='450' scrolling="no" style="display:block; margin:0 auto; margin-top: -15px; overflow: none; border: none; outline: none;" frameBorder="0"></iframe>
 </div>
 
 </div><!-- id="main" class="container" -->
@@ -95,5 +100,28 @@
 </footer>
 
 <script src="files/debconf17.js"></script>
+<script>
+function clock() {// We create a new Date object and assign it to a variable called "time".
+	var time = new Date(),
+	    
+	    // Access the "getHours" method on the Date object with the dot accessor.
+	    hours = time.getHours(),
+	        
+	        // Access the "getMinutes" method with the dot accessor.
+	        minutes = time.getMinutes(),
+		    
+		    
+		    seconds = time.getSeconds();
 
+	document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+	  
+	  function harold(standIn) {
+		      if (standIn < 10) {
+			            standIn = '0' + standIn
+					        }
+		          return standIn;
+			    }
+}
+setInterval(clock, 1000);
+</script>
 </body></html>
