@@ -120,14 +120,24 @@ body { text-align: center; }
     stroke:#bc312e;
   }
 }
+
+/* DIV past */
+#section-c1,
+#section-c2,
+#section-c3,
+#section-c4 {
+  height: 450px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#section-c1 { background: #9c6; color: #cf9; }
+#section-c3  { background: #69c; color: #9cf; }
+#section-c4   { background: #c69; color: #f9c; }
 </style>
 <body>
 
- <video height="400" controls loop autoplay>
-  <source src="loop.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
-
+<div id="section-c1">
 
 <!-- Logo Animation with CSS -->
 
@@ -159,6 +169,58 @@ body { text-align: center; }
   <path id="torre" stroke-linejoin="bevel" d="m185.28 48.229c73.939-25.575 143.98-62.38 206.99-108.76 49.297-36.293 94.55-78.73 129.85-128.74 8.7079-12.337 16.796-25.111 24.223-38.258 14.648-4.1269 29.152-8.7656 43.477-13.905 17.108-6.1379 33.96-12.99 50.498-20.532l.32516 62.479c-32.731 20.757-62.281 46.52-87.304 76.117-39.747 47.011-67.902 103.75-81.299 163.84m-156.98 42.708h-116.79m127.27-15.384h-97.418m107.76-14.37h-81.648m92.153-14.12h-67.938m78.286-14.124h-56.004m67.697-14.118h-45.745m57.243-14.443h-37.011m49.659-14.267h-29.728m42.764-14.267h-23.899m36.557-14.211h-19.319m32.931-14.441h-15.962m30.763-14.271h-13.944m28.049-14.443h-13.124m28.204-14.267h-13.482m-282.61 142.94 2.3891-.73052s239.31-72.825 359.95-275.45c.83445-.22574 17.228-4.6419 37.339-11.304 20.614-6.8298 44.071-15.574 56.399-24.23l2.0388-1.4462m-323.13 377.17c103.25-56.445 222.24-83.723 339.76-77.89 95.72 4.75 190.29 31.281 274.51 77.01m-592.27-.23c97.86-48.995 208.46-72.239 317.76-66.78 88.25 4.408 175.53 27.388 254.51 67.01m-549.52-.77c92.03-41.707 194.09-61.344 295.01-56.24 79.56 4.023 158.3 23.327 230.84 56.24m-531.09-19.093c29.56-39.379 59.385-78.559 89.471-117.54 42.45-54.994 85.466-109.64 132.15-161.09 20.576-22.678 41.851-44.722 63.786-66.088" fill="none"/>
  </g>
 </svg>
-
 <!-- End Logo Animation CSS -->
+
+</div>
+
+  <div id="section-c2">
+    <video height="450" controls loop autoplay>
+     <source src="loop.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+     </video> 
+   </div>
+  <div id="section-c3"><iframe src="http://mirage.deb.at/~rhonda/Announce/" width="100%" height="450px" scrolling="no" style="overflow: none; border: none; outline: none;" frameBorder="0">Browser not compatible.</iframe></div>
+  <div id="section-c4"><h2>Red</h2></div>
+  <div id="section-c4"><h2><a href="#">Press to stop the loop</a></h2></div>
+
+<script src="files/debconf17.js"></script>
+<script>
+// **** AutoScroll + ScrollSpy ****
+var CORRECTION = 0;  // height of the navbar 
+// don't forget to setup the data-offset attribute of the <body> tag
+
+var DELAY_READING = 10000; // 4 seconds = 4000; 10 seconds = 10000
+var DELAY_SCROLLING = 1500;
+
+var links = [ '#section-c1', '#section-c2', '#section-c3', '#section-c4' ];
+var timerId = 0;
+
+delayLinks(0);
+
+$( '#section-c4 a' ).click(function(event) { 
+  event.preventDefault();
+  clearTimeout(timerId); 
+});
+
+function delayLinks( i ) {
+  if( i >= links.length ) i = 0;
+  scrollToLink( links[i] );
+  
+  var next = ( i == links.length - 1 ? 0 : i + 1);
+  timerId = setTimeout(function() { delayLinks( next ) }, DELAY_READING ); 
+}
+
+function scrollToLink( link ) {
+  selectLink = $( link );
+  if ( selectLink.length ) {
+    var top = selectLink.offset().top - CORRECTION;
+    $('body,html').stop().animate({scrollTop: top}, DELAY_SCROLLING);
+  } else {
+    colnsole.log('The link is not found: ' + link);
+  }
+}
+</script>
+
+
+
 </body></html>
