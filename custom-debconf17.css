@@ -23,15 +23,4 @@ h1, h2, h3 {
 	color: #fff;
 }
 
-footer {
-	background-color: #FFF;
-	border-top: 2px solid #1b75bc;
-	margin-top: 2em;
-	padding: 1em;
-	color: #808080;
-}
-
-footer a { color: #1b75bc; }
-footer a:hover { color: #545454; }
-
 
