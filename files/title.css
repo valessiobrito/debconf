@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .content {
   position: absolute;
-  width: 440px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
