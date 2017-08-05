@@ -3,12 +3,15 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width" />
-      <title>DebConf17 - Schedule now</title>
-      <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+      <title>Index</title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /> 
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" charset="utf-8"></script>
       <script charset="utf-8">
         'use strict';
+
+        let now = moment();
 
         function parseSchedule(sch) {
           const $sch = $(sch);
@@ -30,7 +33,7 @@
             
             const start = moment($ev.find("date").text())
               .add(moment.duration({"hours": 4}))
-              .utcOffset(-4);
+              .utcOffset(-4); // Fix timezone of pentabarf format
             const duration = moment.duration($ev.find("duration").text());
             const end = start.clone().add(duration);
 
@@ -38,9 +41,8 @@
               title: title,
               room: room,
               persons: persons,
-              date: start.format("YYYY-MM-DD"),
-              start: start.toDate(),
-              end: end.toDate(),
+              start: start,
+              end: end,
               formattedTime: start.format("HH:mm") + "–" + end.format("HH:mm")
             }
           })
@@ -52,12 +54,9 @@
         }
 
         function filterEvents(sch) {
-          const now = new Date();
-          const date = moment().format("YYYY-MM-DD");
+          const endOfDay = now.clone().endOf("day");
           return sch.filter(ev => {
-            const notFinished = (ev.end - now) > 0;
-            const today = ev.date === date;
-            return today && notFinished;
+            return ev.start.isBefore(endOfDay) && ev.end.isAfter(now);
           });
         }
 
@@ -65,84 +64,93 @@
           if (sch.length === 0) {
             return $("<div class=\"taf\">That's all for today, folks!<\/div>");
           }
+          const endOfDay = now.clone().endOf("day");
           return sch.map(ev =>{
             let $ev = $("<div class=\"event\">")
-            $("<div class=\"title\" />").text(ev.title).appendTo($ev);
+            let meta = `
+            <div class="time"><i class="fa fa-clock-o" /> ${ev.formattedTime}</div>
+            <div class="room"><i class="fa fa-map-marker" /> ${ev.room}</div>
+            `;
+            if (ev.start.isAfter(endOfDay)) {
+              timeFormat = `${ev.start.format("YYYY-MM-DD")} ${ev.formattedTime} @ ${ev.room}`;
+            }
+            let title = $("<div class=\"title\" />").text(ev.title);
+            if (now.isSameOrAfter(ev.start)) {
+              title.addClass("current");
+            }
+            title.appendTo($ev);
             $("<div class=\"persons\" />").text(ev.persons).appendTo($ev);
-            $("<div class=\"time\" />").text(ev.formattedTime + " @ " + ev.room).appendTo($ev);
+            $("<div class=\"meta\" />").html(meta).appendTo($ev);
             return $ev;
-          })
+          });
         }
 
         function display(dom) {
           $("#schedule").empty().append(dom);
         }
 
-        $.ajax("pentabarf.xml")
-          .then(parseSchedule)
-          .then(filterEvents)
-          .then(generateDOM)
-          .then(display);
+        function run() {
+          if (window.location.hash) {
+            now = moment(window.location.hash.substring(1));
+          } else {
+            now = moment();
+          }
+
+          $.ajax("pentabarf.xml")
+            .then(parseSchedule)
+            .then(filterEvents)
+            .then(generateDOM)
+            .then(display);
+        }
+
+        $(window).on('hashchange', function() {
+          run();
+        });
+
+        run();
+
+        const t = moment().endOf("minute").diff(moment());
+        setTimeout(run, t);
       </script>
 <style>
   body {
     font-family: "Open Sans", sans-serif;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  h1 {
-    font-family: "Monoton", sans-serif;
-    color: #bc312e;
-    font-weight: 300;
-    font-size: 1.8em;
+    margin: auto;
+	font-size: 1.5em;
+    padding: 0 1em;
   }
   .taf {
     font-size: 1.2em;
     color: #999;
+    text-align: center;
+    margin: 1em 0;
   }
   .event {
-    width: 400px;
-    margin-bottom: 1em;
+    margin: 1em 0;
   }
   .title {
     font-weight: 700;
+    color: #1b75bc;
+  }
+  .title.current {
     color: #bc312e;
   }
   .persons {
     font-size: 0.8em;
     color: #999;
   }
-  .time {
+  .meta {
     font-size: 0.9em;
   }
-
-/* Animation */
-#cwrap {
-          height: 750px;
-   	  overflow-y: hidden;
-}
-#iwrap {
-          animation: autoscroll 45s linear infinite;
-}
-
-@keyframes autoscroll {
-          from { 
-      	        transform: translate3d(0,0,0);
-      			  }
-            to {
-      	          transform: translate3d(0,-90%,0);
-      			    }
-}
-
+  .meta>div {
+    display: inline-block;
+    width: 30%;
+    min-width: 120px;
+  }
 </style>
     </head>
     <body>
-    <h1>Upcoming  events</h1>
-    <div id="cwrap">
-	    <div id="iwrap">
       <div id="schedule">
       </div>
-	    </div>
-    </div>
     </body>
   </html>

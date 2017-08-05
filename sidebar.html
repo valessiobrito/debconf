@@ -1,0 +1,73 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>DebConf17</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|PT+Sans" rel="stylesheet"> 
+</head>
+<style>
+body { text-align: center; }
+
+/* DIV past */
+#section-c1,
+#section-c2 {
+  overflow: hidden;
+  height: 750px;
+  padding: 0px;
+  margin: 0px;
+}
+
+</style>
+<body>
+
+<div id="section-c1">
+	<center><h4 style="color: #DDD; text-align: center; font-size:25px; font-family: Arial; margin: 0px; margin-bottom: 5px;"><b>Mastodon</b> and Twitter posts #DebConf17</h4></center>
+	<iframe src='https://collab.debian.net/social/' frameborder='0' width='100%' height='750' scrolling="no" style="display:block; margin:0 auto; margin-top: -15px; overflow: none; border: none; outline: none;" frameBorder="0"></iframe>
+</div>
+
+  <div id="section-c2">
+	<center><h4 style="color: #DDD; text-align: center; font-size:25px; font-family: Arial; margin: 0px; margin-bottom: 5px;"><b>What's up!</b> Open Day #DebConf17</h4></center>
+	<iframe src='schedule.html' frameborder='0' width='100%' height='750' scrolling="no" style="display:block; margin:0 auto; margin-top: -15px; overflow: none; border: none; outline: none;" frameBorder="0"></iframe>
+  </div>
+
+<script src="files/debconf17.js"></script>
+<script>
+// **** AutoScroll + ScrollSpy ****
+var CORRECTION = 0;  // height of the navbar 
+// don't forget to setup the data-offset attribute of the <body> tag
+
+var DELAY_READING = 10000; // 4 seconds = 4000; 10 seconds = 10000
+var DELAY_SCROLLING = 700;
+
+var links = [ '#section-c1', '#section-c2' ];
+var timerId = 0;
+
+delayLinks(0);
+
+$( '#section-c4 a' ).click(function(event) { 
+  event.preventDefault();
+  clearTimeout(timerId); 
+});
+
+function delayLinks( i ) {
+  if( i >= links.length ) i = 0;
+  scrollToLink( links[i] );
+  
+  var next = ( i == links.length - 1 ? 0 : i + 1);
+  timerId = setTimeout(function() { delayLinks( next ) }, DELAY_READING ); 
+}
+
+function scrollToLink( link ) {
+  selectLink = $( link );
+  if ( selectLink.length ) {
+    var top = selectLink.offset().top - CORRECTION;
+    $('body,html').stop().animate({scrollTop: top}, DELAY_SCROLLING);
+  } else {
+    colnsole.log('The link is not found: ' + link);
+  }
+}
+</script>
+
+
+</body></html>
