@@ -3145,6 +3145,57 @@ Potentially many more topics, could be a busy session!</description>
                 
               
                 
+                  
+                  <event id="267">
+                    
+                    <date>2017-08-06T15:30:00+00:00</date>
+                    <start>15:30</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Debian and Documentation</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>We&#39;ll be discussing the state of Debian&#39;s Documentation, what we would like it to be (the Arch wiki?), and how to get there.
+keywords: The Debian Wiki, Installation Manual, Release Notes, The Debian GNU/Linux FAQ, The Debian Documentation Project, CVS vs SVN vs git, Debian SGML vs Markdown and ReST, ....
+
+See e.g. https://www.debian.org/doc/ and https://www.debian.org/doc/ddp for more information.</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="602">Joost van Baal-Ilić</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/213/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/213/</full_conf_url>
+
+                  </event>
+                
               
                 
               
@@ -4111,14 +4162,10 @@ The intended audience is for people who may be interested in getting into Debian
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -4448,8 +4495,6 @@ This talk will give a quick summary of our lessons learned while selling Debian 
               
                 
               
-                
-              
             
           
             
@@ -4510,8 +4555,6 @@ This talk will be about what Laniakea wants to be and what it can already do tod
                     <full_conf_url>https://debconf17.debconf.org/talks/38/</full_conf_url>
 
                   </event>
-                
-              
                 
               
                 
@@ -5421,67 +5464,53 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
                 
               
                 
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
+                  
+                  <event id="270">
+                    
+                    <date>2017-08-07T12:00:00+00:00</date>
+                    <start>12:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>XMPP BoF</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Everything related to Debian, XMPP, and the universe!</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="879">kousu</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/215/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/215/</full_conf_url>
+
+                  </event>
                 
               
                 
@@ -5491,33 +5520,7 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
             
           
             
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
           
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
             
           
             
@@ -5550,12 +5553,74 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
               
                 
               
+                
+              
+                
+              
             
           
             
               
               
                 
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+            
+          
+            
+              
               
                 
               
@@ -5667,14 +5732,10 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -5764,35 +5825,61 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
                 
               
                 
+                  
+                  <event id="269">
+                    
+                    <date>2017-08-07T17:00:00+00:00</date>
+                    <start>17:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Building a PKI and PGP clean room</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>A review of the [PKI/PGP clean room project](https://danielpocock.com/dvd-based-clean-room-for-pgp-and-pki) status and discussion of future steps.</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="515">Daniel Pocock</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/66/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/66/</full_conf_url>
+
+                  </event>
+                
               
                 
               
             
           
             
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
           
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
             
           
             
@@ -5934,14 +6021,10 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -6119,14 +6202,10 @@ It will also give an overview about the 1400 jobs running on jenknis.d.n and how
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -6679,10 +6758,6 @@ of automation tools with Debian.</description>
               
                 
               
-                
-              
-                
-              
             
           
             
@@ -6745,10 +6820,6 @@ The presentation will cover
                     <full_conf_url>https://debconf17.debconf.org/talks/69/</full_conf_url>
 
                   </event>
-                
-              
-                
-              
                 
               
                 
@@ -6831,10 +6902,6 @@ The idea is to rebuild and install any package and its reverse build dependencie
               
                 
               
-                
-              
-                
-              
             
           
             
@@ -6892,10 +6959,6 @@ This talk will present some of these alternative strategies, with supporting evi
                     <full_conf_url>https://debconf17.debconf.org/talks/151/</full_conf_url>
 
                   </event>
-                
-              
-                
-              
                 
               
                 
@@ -7138,10 +7201,6 @@ In this talk I will give a quick overview on the current status of above named e
               
                 
               
-                
-              
-                
-              
             
           
             
@@ -7199,10 +7258,6 @@ Also, I would like to raise awareness to the practical challenges of maintaining
                     <full_conf_url>https://debconf17.debconf.org/talks/48/</full_conf_url>
 
                   </event>
-                
-              
-                
-              
                 
               
                 
@@ -8010,11 +8065,128 @@ Proxmox. finally we merge to master to get it in production.</description>
                 
               
                 
+                  
+                  <event id="272">
+                    
+                    <date>2017-08-08T10:00:00+00:00</date>
+                    <start>10:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>LTS and security team BoF</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Let&#39;s meet face to face and discuss workflow issues, etc.</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="671">Guido Günther</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/217/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/217/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+                
+              
+            
+          
+            
+              
               
                 
               
                 
               
+                
+              
+                
+                  
+                  <event id="277">
+                    
+                    <date>2017-08-08T11:00:00+00:00</date>
+                    <start>11:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Potato</room>
+                    <track>Systems administration, automation and orchestration</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Let&#39;s Encrypt (Some Servers)</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>This is a BoF for Let&#39;s Encrypt and its various associated clients (acme-tiny, acmetool, lecm, certbot, dehydrated, etc.).  If you have questions about Let&#39;s Encrypt, or would like to give feedback to either the EFF&#39;s Certbot team, to the Debian Let&#39;s Encrypt Packaging Team, or to ISRG&#39;s Let&#39;s Encrypt organization itself, please come by!</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="854">Harlan Lieberman-Berg</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/188/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/188/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+                
+              
+            
+          
+            
+          
             
           
             
@@ -8045,49 +8217,6 @@ Proxmox. finally we merge to master to get it in production.</description>
               
                 
               
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
                 
               
                 
@@ -8123,6 +8252,146 @@ Proxmox. finally we merge to master to get it in production.</description>
                 
               
                 
+                  
+                  <event id="274">
+                    
+                    <date>2017-08-08T15:30:00+00:00</date>
+                    <start>15:30</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Generating excitement and engaging new communities with ham radio and SDR</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>No license is required to purchase Software Defined Radio (SDR) hardware or receive radio radio signals.  SDR/ham radio demonstrations can be elaborate and engaging and often take a &lt;a href=&quot;https://danielpocock.com/building-loop-antenna-sdr-shortwave-ham-oscal17&quot;&gt;prominent position at events&lt;/a&gt;.  There are also large events like the &lt;a href=&quot;http://jotajoti.info/&quot;&gt;Jamboree On The Air (JOTA)&lt;/a&gt; where the possibilities free software offers for science and education can gain significant prominence.  Any member of the Debian community can set up one of these demos in a few minutes using the packages produced by &lt;a href=&quot;https://wiki.debian.org/DebianHams&quot;&gt;Debian Hams&lt;/a&gt; or the Debian Hams live image.  In this practical BoF you can try the $20 RTL-SDR dongle on your own laptop and ask questions about the topic.</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="515">Daniel Pocock</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/219/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/219/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+                
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                  <event id="275">
+                    
+                    <date>2017-08-08T17:00:00+00:00</date>
+                    <start>17:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Soprani.ca: freeing (us from) the phone network</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>The phone network is one of society&#39;s greatest inventions, a vast federated network connecting nearly all of the world&#39;s inhabitants.  But the tools we commonly use to interact with it are some of the most prone to interfering with our freedom and privacy.  Soprani.ca is a collection of free software projects that aims to replace these tools so we can continue use the features of the phone network (such as calls and text and picture messaging to any phone number) without the adverse side effects that plague most phones.
+
+In this session, Denver will describe the existing voice, text, and picture messaging functionality of Soprani.ca, as well as plans for creating new distributed physical networks to extend and eventually replace the centralized physical networks of the phone network that exist today.  He will also discuss ways you can help build the remaining pieces of Soprani.ca that will bring this vision to reality.</description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="110">Denver Gingerich</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/40/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/40/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+                
+              
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
               
                 
               
@@ -8138,91 +8407,53 @@ Proxmox. finally we merge to master to get it in production.</description>
                 
               
                 
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
+                  
+                  <event id="280">
+                    
+                    <date>2017-08-08T18:00:00+00:00</date>
+                    <start>18:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>LibreOffice: languages done Right (to Left)</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Demonstration of how does a right to left languages looks like on LibreOffice. Will also show a few of the problems RTL languages have on software created by (mostly) Latin speakers.</description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="742">Lior Kaplan</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/224/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/224/</full_conf_url>
+
+                  </event>
                 
               
                 
@@ -8251,9 +8482,162 @@ Proxmox. finally we merge to master to get it in production.</description>
                 
               
                 
+                  
+                  <event id="273">
+                    
+                    <date>2017-08-08T10:00:00+00:00</date>
+                    <start>10:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Understanding The Complexity of Copyleft Defense</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>The [first GPL compliance action was done by Richard Stallman against
+NeXT Computers in
+1989](https://www.gnu.org/philosophy/pragmatic.en.html), regarding
+Objective C support in GCC.  For 25 years, GPL compliance has remained a
+regular but rarely mainstream activity in Open Source and Free Software
+projects.  Very few projects enforce their
+[copyleft](https://copyleft.org/) licenses; most live with regular
+violations and merely ignore them, or simply beg violators to comply.
+
+Even under the now-published and publicly discussed [Community Principles
+of GPL
+Enforcement](https://sfconservancy.org/copyleft-compliance/principles.html),
+co-drafted by Software Freedom Conservancy and the Free Software
+Foundation, GPL compliance is regularly criticized and questioned.
+Those of us who enforce the GPL get wildly inconsistent feedback from the
+community: some copyright holders recruit organizations like Conservancy
+and FSF to enforce as much as possible, others often complaining that we
+simply don&#39;t enforce enough, and still others call for a complete
+moratorium on GPL compliance.
+
+Meanwhile, not all enforcement abides by community principles.
+For-profit enforcers, who have existed for decades, use copyleft licenses
+in a manner not intended by the license drafters: to captiously convince
+&quot;customers&quot; that they must buy proprietary licenses, or otherwise pay, to
+incorporate Open Source and Free Software into their products.
+
+This complex landscape has become almost impenetrable for the average
+FLOSS developers who merely wish their code to remain forever free and
+libre.  This talk will provide the basic history and background
+information about the state of copyleft in our community, and set the
+stage for all developers to give informed feedback to organizations that
+stand up for copyleft.
+</description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="758">Bradley M. Kuhn</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/200/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/200/</full_conf_url>
+
+                  </event>
+                
               
                 
               
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                  <event id="276">
+                    
+                    <date>2017-08-08T11:00:00+00:00</date>
+                    <start>11:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Welcome team BoF</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>During this BoF, Welcome Team members will be reviewing current goals and wiki documentation. 
+
+New Debian users as well as seasoned contributors are all welcome to improve the Debian first experience for everyone.
+
+Author: Fabian Rodriguez ([MagicFab](https://wiki.debian.org/FabianRodriguez))</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="989">Fabián Rodríguez</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/221/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/221/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+            
+          
+            
+          
             
           
             
@@ -8284,49 +8668,6 @@ Proxmox. finally we merge to master to get it in production.</description>
               
                 
               
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
                 
               
                 
@@ -8364,6 +8705,151 @@ Proxmox. finally we merge to master to get it in production.</description>
                 
               
                 
+                  
+                  <event id="278">
+                    
+                    <date>2017-08-08T15:30:00+00:00</date>
+                    <start>15:30</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>BoF: Uniform design for blends (and non-blend uses of Debian too)</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Installing Debian with a distinct look&#39;n&#39;feel is not well supported in Debian. Yet.
+
+A new framework - Uniform - will soon enter Debian - let&#39;s discuss amng designers and maintainers of user-facing packages how that framework should be to not burden designers nor maintainers - i.e. be awesome.
+
+This is sort-of a follow-up to the Debian Design BoF on Sunday, but also newcomers are quite welcome!</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="751">Jonas Smedegaard</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/220/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/220/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                  <event id="279">
+                    
+                    <date>2017-08-08T17:00:00+00:00</date>
+                    <start>17:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Non uploading contributors &amp; developers - get together</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>For newbies it may be hard to find a way to be involved in debian, this is also true for non uploading debian contributors.
+I would like to encourage non uploading contributors to meet up.
+Tell your story how you got to debian, what you are doing and what newcomers could do in your field.
+I hope to see other newcomers and hear about how you got to come to debian and how your search for &quot;how can I help&quot; is going on.</description>
+                        
+                        <type>Event</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="711">Clara Pogner</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/222/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/222/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
               
                 
               
@@ -8379,91 +8865,53 @@ Proxmox. finally we merge to master to get it in production.</description>
                 
               
                 
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
+                  
+                  <event id="281">
+                    
+                    <date>2017-08-08T18:00:00+00:00</date>
+                    <start>18:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Bits from Debian + Ubuntu MATE - How To Contribute</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Bits from the MATE Desktop Maintainers in Debian and Ubuntu</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="639">Mike Gabriel</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/223/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/223/</full_conf_url>
+
+                  </event>
                 
               
                 
@@ -8556,18 +9004,10 @@ Proxmox. finally we merge to master to get it in production.</description>
               
                 
               
-                
-              
-                
-              
             
           
             
               
-              
-                
-              
-                
               
                 
               
@@ -8737,18 +9177,10 @@ Proxmox. finally we merge to master to get it in production.</description>
               
                 
               
-                
-              
-                
-              
             
           
             
               
-              
-                
-              
-                
               
                 
               
@@ -8819,18 +9251,10 @@ Proxmox. finally we merge to master to get it in production.</description>
               
                 
               
-                
-              
-                
-              
             
           
             
               
-              
-                
-              
-                
               
                 
               
@@ -11588,6 +12012,60 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                 
               
                 
+                  
+                  <event id="250">
+                    
+                    <date>2017-08-11T10:00:00+00:00</date>
+                    <start>10:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Buzz</room>
+                    <track>No Track</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Am I really married with Debian?</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>When asking partners of Debian developers - as far as not both partners are DDs - many will answer with a more or less clear &quot;yes&quot; when being asked whether the partner is married with Debian.  So my wife would surely do.  Luckily this non-physical partner in many cases gives back nice gifts like a reliably working computer, interesting traveling destinations ... and not to forget friends.  As we all know lots of DD became parents over the years.  We even had a grandfather - father pair (Robert and Kirk Hilliard) and thus a more generation family. (I&#39;m working on it as well.)
+However, it turned out that you can even get children together with this non-physical partner.  In my talk I&#39;d like to simply chat about the way I&#39;ve got a daughter because Debian exists.  If you are curious how it is possible to find new family members in Debian, feel free to join a non-technical talk showing photos and telling a story about coincidences, chances Debian can give and how Debian can bridge between continents.  I&#39;d be more than lucky if my dear daughter Minh will be able to come to Montreal and have this talk together with me.</description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="208">Minh Le</person>
+                            
+                          
+                            
+                            
+                              <person id="7">Andreas Tille</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/51/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/51/</full_conf_url>
+
+                  </event>
+                
               
                 
               
@@ -11676,7 +12154,7 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                     <date>2017-08-11T12:00:00+00:00</date>
                     <start>12:00</start>
                     
-                      <duration>00:20</duration>
+                      <duration>00:50</duration>
                     
                     <room>Buzz</room>
                     <track>No Track</track>
@@ -11734,33 +12212,7 @@ Also, proposals for ways to modify standard open source practices to mitigate or
             
           
             
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
           
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
             
           
             
@@ -11963,6 +12415,23 @@ This talk will explain the current status of the Debian Reproducible Builds proj
           
             
           
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
         </room>
       
         <room name="Rex">
@@ -11976,7 +12445,7 @@ This talk will explain the current status of the Debian Reproducible Builds proj
               
                 
                   
-                  <event id="250">
+                  <event id="271">
                     
                     <date>2017-08-11T10:00:00+00:00</date>
                     <start>10:00</start>
@@ -11984,7 +12453,7 @@ This talk will explain the current status of the Debian Reproducible Builds proj
                       <duration>00:45</duration>
                     
                     <room>Rex</room>
-                    <track>No Track</track>
+                    <track>Packaging, policy and infrastructure</track>
                     
                     
                     
@@ -11992,27 +12461,23 @@ This talk will explain the current status of the Debian Reproducible Builds proj
                     <abstract/>
                     
                       
-                        <title>Am I really married with Debian?</title>
+                        <title>using autopkgtest results for unstable to testing migration</title>
                         
                         
                         
                         
                         
                         
-                          <description>When asking partners of Debian developers - as far as not both partners are DDs - many will answer with a more or less clear &quot;yes&quot; when being asked whether the partner is married with Debian.  So my wife would surely do.  Luckily this non-physical partner in many cases gives back nice gifts like a reliably working computer, interesting traveling destinations ... and not to forget friends.  As we all know lots of DD became parents over the years.  We even had a grandfather - father pair (Robert and Kirk Hilliard) and thus a more generation family. (I&#39;m working on it as well.)
-However, it turned out that you can even get children together with this non-physical partner.  In my talk I&#39;d like to simply chat about the way I&#39;ve got a daughter because Debian exists.  If you are curious how it is possible to find new family members in Debian, feel free to join a non-technical talk showing photos and telling a story about coincidences, chances Debian can give and how Debian can bridge between continents.  I&#39;d be more than lucky if my dear daughter Minh will be able to come to Montreal and have this talk together with me.</description>
+                          <description>The idea is to enhance the Debian infrastructure to enable our migration agent (britney2) to take results from autopkgtests into account when deciding on migration of packages from unstable to testing. In this session, I want to update the audience on what ideas we have, how far we are, and what still needs to be done.
+
+As the way to use this is apparently a hot topic, I&#39;d hope there is room to discuss how we as a community like migration to be based on this.</description>
                         
-                        <type>Talk (45 mins)</type>
+                        <type>BoF (45 mins)</type>
                         <persons>
                           
                             
                             
-                              <person id="208">Minh Le</person>
-                            
-                          
-                            
-                            
-                              <person id="7">Andreas Tille</person>
+                              <person id="17">Paul Gevers</person>
                             
                           
                         </persons>
@@ -12020,12 +12485,12 @@ However, it turned out that you can even get children together with this non-phy
                         <released>True</released>
                       
                     
-                    <conf_url>/talks/51/</conf_url>
+                    <conf_url>/talks/2/</conf_url>
                     
                     
 
                     
-                    <full_conf_url>https://debconf17.debconf.org/talks/51/</full_conf_url>
+                    <full_conf_url>https://debconf17.debconf.org/talks/2/</full_conf_url>
 
                   </event>
                 
@@ -12183,14 +12648,10 @@ This talk will explore LXC packages in Debian and take a case study on how LXC c
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -12396,6 +12857,23 @@ This talk will cover:
               
             
           
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
             
           
         </room>
@@ -12776,6 +13254,23 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
           
             
           
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
         </room>
       
         <room name="Potato">
@@ -12844,14 +13339,10 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -12948,6 +13439,23 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
               
             
           
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
             
           
         </room>
@@ -13018,14 +13526,10 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -13122,6 +13626,23 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
               
             
           
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
             
           
         </room>
@@ -13229,14 +13750,10 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
               
                 
               
-                
-              
             
           
             
               
-              
-                
               
                 
               
@@ -13440,6 +13957,73 @@ Bdale was there, and is willing to answer these and other questions.  Come ask a
 
                     
                     <full_conf_url>https://debconf17.debconf.org/meals/supper/</full_conf_url>
+
+                  </event>
+                
+              
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                  <event id="268">
+                    
+                    <date>2017-08-11T20:30:00+00:00</date>
+                    <start>20:30</start>
+                    
+                      <duration>02:00</duration>
+                    
+                    <room>Elsewhere</room>
+                    <track>No Track</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Film Screening &quot;The Internet&#39;s Own Boy: The Story of Aaron Swartz&quot;</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>This will be a screening of the film &quot;The Internet&#39;s Own Boy: The Story of Aaron Swartz&quot; by Brian Knappenberger.
+
+See https://en.wikipedia.org/wiki/The_Internet%27s_Own_Boy and http://www.imdb.com/title/tt3268458/ for more information.</description>
+                        
+                        <type>Event</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="107">Michael Banck</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/214/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/214/</full_conf_url>
 
                   </event>
                 
@@ -14489,56 +15073,6 @@ Lots of stuff that isn&#39;t going very smoothly in this very loose team. Let&#3
             
               
               
-                
-                  
-                  <event id="252">
-                    
-                    <date>2017-08-12T11:45:00+00:00</date>
-                    <start>11:45</start>
-                    
-                      <duration>01:00</duration>
-                    
-                    <room>Bo</room>
-                    <track>Packaging, policy and infrastructure</track>
-                    
-                    
-                    
-                    
-                    <abstract/>
-                    
-                      
-                        <title>using autopkgtest results for unstable to testing migration</title>
-                        
-                        
-                        
-                        
-                        
-                        
-                          <description>The idea is to enhance the Debian infrastructure to enable our migration agent (britney2) to take results from autopkgtests into account when deciding on migration of packages from unstable to testing. In this session, I want to update the audience on what ideas we have, how far we are, and what still needs to be done.
-
-As the way to use this is apparently a hot topic, I&#39;d hope there is room to discuss how we as a community like migration to be based on this.</description>
-                        
-                        <type>BoF (45 mins)</type>
-                        <persons>
-                          
-                            
-                            
-                              <person id="17">Paul Gevers</person>
-                            
-                          
-                        </persons>
-                        <abstract/>
-                        <released>True</released>
-                      
-                    
-                    <conf_url>/talks/2/</conf_url>
-                    
-                    
-
-                    
-                    <full_conf_url>https://debconf17.debconf.org/talks/2/</full_conf_url>
-
-                  </event>
                 
               
                 
