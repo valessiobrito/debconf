@@ -97,7 +97,7 @@
             now = moment();
           }
 
-          $.ajax("pentabarf.xml")
+          $.ajax("https://debconf17.debconf.org/schedule/pentabarf.xml")
             .then(parseSchedule)
             .then(filterEvents)
             .then(generateDOM)
