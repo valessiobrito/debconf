@@ -9442,10 +9442,10 @@ More details on the Day Trip can be found on the [wiki](https://wiki.debconf.org
                   
                   <event id="193">
                     
-                    <date>2017-08-09T19:30:00+00:00</date>
-                    <start>19:30</start>
+                    <date>2017-08-09T19:00:00+00:00</date>
+                    <start>19:00</start>
                     
-                      <duration>01:00</duration>
+                      <duration>01:30</duration>
                     
                     <room>Elsewhere</room>
                     <track>No Track</track>
@@ -9556,10 +9556,6 @@ More details on the Day Trip can be found on the [wiki](https://wiki.debconf.org
               
                 
               
-                
-              
-                
-              
             
           
             
@@ -9619,10 +9615,6 @@ In this talk we present *in-toto*, a set of tools to define, carry out, and veri
                     <full_conf_url>https://debconf17.debconf.org/talks/100/</full_conf_url>
 
                   </event>
-                
-              
-                
-              
                 
               
                 
@@ -9775,10 +9767,6 @@ This talk reveals the limitations of the above security mechanisms, and presents
               
                 
               
-                
-              
-                
-              
             
           
             
@@ -9836,10 +9824,6 @@ I&#39;m going to introduce
                     <full_conf_url>https://debconf17.debconf.org/talks/90/</full_conf_url>
 
                   </event>
-                
-              
-                
-              
                 
               
                 
@@ -11142,6 +11126,135 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                 
               
                 
+                  
+                  <event id="283">
+                    
+                    <date>2017-08-10T10:00:00+00:00</date>
+                    <start>10:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Doing FLOSS License Compliance for &quot;The Man&quot;</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>I&#39;ll share my insights on FLOSS license compliance based on my experiences at a certain Very Big Corporation of America that I worked at for about 9 years.
+
+Topics I will try to cover include:
+
+* What the internal attitudes toward FLOSS license compliance are;
+* What sorts of tools are useful and desirable;
+* Noteworthy facts and semi-informed speculations about uptake and usage  of GPLv3-licensed code, the Linux kernel, and containerization;
+* Advice on what FLOSS developers can do to make license compliance activities easier for well-intentioned engineers and companies; and
+* The role the Linux Foundation and commercial license-scanning and compliance-evaluation companies perform in industry.</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="1003">Branden Robinson</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/226/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/226/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+                
+              
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                  <event id="285">
+                    
+                    <date>2017-08-10T11:00:00+00:00</date>
+                    <start>11:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Software Patents Around the World</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Citizens of earth, do we really want to police a global unified approach to &quot;intellectual property?&quot; How would a global agreement on what can be owned and what rights ownership should bestow affect coders and inventors? If you&#39;ve ever spent a sleepless night wondering about the kind of world we are leaving the next generation of innovators... from an international policy perspective then this talk is for you.
+
+Confusion and near constant change sounds like a nightmare for international companies or projects, but it just might be that this uncertainty is exactly what holds space for technologies that creatively serve emerging needs or niche populations. Patent maximalism and perfect global harmonization around patents and copyrights certainly has many (often vocal and prolific) proponents. Meanwhile, another conversation is happening around whether the needs of local markets and communal projects with fewer resources might not be better served by a much more multi-faceted approach. 
+
+This talk takes a look at what&#39;s happening technologically in several different markets and what the current level of sympathy (or antipathy) is for globally mandated standards. So, join me for a patent-focused tour around the world and a few ideas about where the global conversation may be headed. </description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="804">Deb Nicholson</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/228/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/228/</full_conf_url>
+
+                  </event>
+                
               
                 
               
@@ -11159,80 +11272,69 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                 
               
                 
+                  
+                  <event id="287">
+                    
+                    <date>2017-08-10T12:00:00+00:00</date>
+                    <start>12:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Debian OpenStack packaging BoF</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>For a several years, the OpenStack packaging work has relied on the heroic work of one person (thanks zigo!). In the past few months, we&#39;ve been expanding the effort out to a broader team, leading to a DebCamp sprint last week where we made good progress on some key goals like:
+
+- moving general Python dependencies for OpenStack into the Debian Python Modules Team, 
+- moving OpenStack packaging work back to Alioth git repositories, to be more welcoming to broader Debian contributions,
+- laying the groundwork for packaging the Pike release of OpenStack (currently in RC, heading for release at the end of the month)
+
+This BoF is a chance to chat a bit about our thoughts on what lies ahead, welcome feedback, and welcome anyone who might be interested in joining our growing band of DebStackers.</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="168">Allison Randal</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/225/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/225/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+                
               
             
           
             
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
           
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
             
           
             
@@ -11263,6 +11365,54 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
               
                 
               
+                
+                  
+                  <event id="289">
+                    
+                    <date>2017-08-10T15:30:00+00:00</date>
+                    <start>15:30</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Potato</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Debian Diversity Group BoF</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>During the Debian Diversity Round Table it was agreed to have an aditional BoF to continue to discuss the topics. :)</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="63">Rhonda D&#39;Vine</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/229/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/229/</full_conf_url>
+
+                  </event>
                 
               
                 
@@ -11381,95 +11531,64 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                 
               
                 
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
+                  
+                  <event id="284">
+                    
+                    <date>2017-08-10T10:00:00+00:00</date>
+                    <start>10:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>DebConf18 Fundraising BoF</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Discussing about future fundraising ideas for DebConf18</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="107">Michael Banck</person>
+                            
+                          
+                            
+                            
+                              <person id="159">Yao Wei (魏銘廷)</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/227/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/227/</full_conf_url>
+
+                  </event>
                 
               
                 
               
             
           
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
             
           
             
@@ -11486,6 +11605,72 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                 
               
                 
+                  
+                  <event id="286">
+                    
+                    <date>2017-08-10T11:00:00+00:00</date>
+                    <start>11:00</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Coordinating Debian Fundraising</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>Over the last several years, there have been discussions regarding the desire to rationalize fundraising activities between DebConf and Debian.
+
+From the DebConf side, there&#39;s an appreciation that asking the local teams to raise funds is not efficient.
+
+From the Debian side, there&#39;s a desire to achieve a sustained income stream.
+
+Laura (larjona) and I have recently been working on revamping how Debian Partners, works. That said, this effort is about acknowledging organizations (and individuals) who are contributing, not about launching a coherent fund raising campaign.
+
+Daniel (DLange) convinced me that an ad-hoc BoF session might be appropriate. The purpose of this session is to discuss:
+(1) What expenditures should Debian fund (hardware, hosting, services, sprints, etc.)? We need to have objectives so that we can clearly communicate with sponsors. Members of the Debian community might be uncomfortable with funding things like LTS. We should make these determinations before the campaign.
+(2) How should a fundraising campaign be structured? We need to determine whether a pan-Debian (ie, Debian, DebConf, etc.) effort is appropriate and sustainable. How much governance is required? Who might be willing to participate?
+(3) What can donors expect? Is an entry in Debian Partners enough? Should branding come into play? What about hardware certifications? Should they get annual reports indicating progress on published goals, etc.
+
+Let&#39;s get together and bounce around some ideas!</description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="28">Luca Filipozzi</person>
+                            
+                          
+                            
+                            
+                              <person id="5">Daniel Lange</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/211/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/211/</full_conf_url>
+
+                  </event>
+                
               
                 
               
@@ -11502,6 +11687,162 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
               
                 
               
+                
+                  
+                  <event id="288">
+                    
+                    <date>2017-08-10T12:00:00+00:00</date>
+                    <start>12:00</start>
+                    
+                      <duration>00:50</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Next Generation Config Mgmt: The Language</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>[Mgmt](https://github.com/purpleidea/mgmt/) is a next gen config management engine that takes a fresh look at existing automation problems.
+The tool has two main parts: the engine, and the language.
+This presentation will briefly discuss and demo a prototype of the language.
+We&#39;ll also explain how the language is implemented in terms of the graph API, and how alternate inputs can be used.
+We&#39;ll even show you how you can write pure golang code to libify mgmt.
+Finally we&#39;ll talk about some of the future designs we&#39;re planning and make it easy for new users to get involved and help shape the project.
+
+I gave the first part of this talk (the engine) at DebConf 2016, and I got a few requests for this presentation.</description>
+                        
+                        <type>Talk (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="898">James</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>True</released>
+                      
+                    
+                    <conf_url>/talks/230/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/230/</full_conf_url>
+
+                  </event>
+                
+              
+                
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                  <event id="290">
+                    
+                    <date>2017-08-10T15:30:00+00:00</date>
+                    <start>15:30</start>
+                    
+                      <duration>00:45</duration>
+                    
+                    <room>Woody</room>
+                    <track>Ad-hoc talks</track>
+                    
+                    
+                    
+                    
+                    <abstract/>
+                    
+                      
+                        <title>Debian for Remote Desktop Computing</title>
+                        
+                        
+                        
+                        
+                        
+                        
+                          <description>When saying remote desktop here, I rather mean Desktop (also Software) as a Service ideas rather than the related Microsoft product / functionality (RDP).
+
+With recent technology shifts for local desktop environments towards Wayland et al., we optimize our graphical working environments based on hardware acceleration.
+
+However, what about using GNU/Linux as a Remote Desktop OS? Desktop in the Cloud, Terminal Servers Farms, VDI solutions, etc. They surely have various advantages. But, do they have a future these days?
+
+If we need hardware acceleration, can there be an open stack of tools to hook acceleration hardware into FLOSS based Remote Desktop sessions?
+
+We have several technologies in Debian that facilitate remote desktop computing between Linux/Windows/Mac OS clients and Linux Desktop Environments: xRDP, X2Go, SPICE (may the list be incomplete).
+
+Also there will be another Linux based RDP Server for providing access to Wayland sessions soon.
+
+Furthermore, a colleague of mine and I are working on technology we named &quot;Telekinesis&quot;. Telekinesis is for merging client-side and server-side software parts on the desktop and make them appear as one application to the user. Current PoCs are a Web Browser (that can play video and stuff smoothly inside terminal server sessions) and a Media Player (support up to 8k videos being played in full screen insider terminal server sessions).
+</description>
+                        
+                        <type>BoF (45 mins)</type>
+                        <persons>
+                          
+                            
+                            
+                              <person id="639">Mike Gabriel</person>
+                            
+                          
+                        </persons>
+                        <abstract/>
+                        <released>False</released>
+                      
+                    
+                    <conf_url>/talks/60/</conf_url>
+                    
+                    
+
+                    
+                    <full_conf_url>https://debconf17.debconf.org/talks/60/</full_conf_url>
+
+                  </event>
                 
               
                 
@@ -11637,35 +11978,10 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
               
                 
               
-                
-              
-                
-              
             
           
             
               
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
-            
-              
-              
-                
-              
-                
-              
-                
-              
-                
               
                 
               
@@ -11701,6 +12017,10 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
               
                 
               
+                
+              
+                
+              
             
           
             
@@ -11709,6 +12029,11 @@ Past sessions at DebConf have led to concrete positive results like collaboratio
                 
               
                 
+              
+            
+          
+            
+              
               
                 
               
@@ -12084,7 +12409,7 @@ However, it turned out that you can even get children together with this non-phy
               
                 
                   
-                  <event id="128">
+                  <event id="156">
                     
                     <date>2017-08-11T11:00:00+00:00</date>
                     <start>11:00</start>
@@ -12100,14 +12425,16 @@ However, it turned out that you can even get children together with this non-phy
                     <abstract/>
                     
                       
-                        <title>Live Demos</title>
+                        <title>Lightning Talks</title>
                         
                         
                         
                         
                         
                         
-                          <description>As a companion piece to the Lightning Talks, I&#39;m also offering Live Demos again this year.  This proposal is a placeholder, and I&#39;ll expand the abstract for maximal usefulness closer to the time.</description>
+                          <description>For Those Who Care About Lightning...
+
+As usual, I&#39;m more than happy to host the lightning talk sessions, and therefore am sticking this proposal in so that it&#39;s hopefully got a space.  I&#39;ll make the abstract more useful to attendees closer to the conf.</description>
                         
                         <type>Talk (45 mins)</type>
                         <persons>
@@ -12122,12 +12449,12 @@ However, it turned out that you can even get children together with this non-phy
                         <released>True</released>
                       
                     
-                    <conf_url>/talks/45/</conf_url>
+                    <conf_url>/talks/44/</conf_url>
                     
                     
 
                     
-                    <full_conf_url>https://debconf17.debconf.org/talks/45/</full_conf_url>
+                    <full_conf_url>https://debconf17.debconf.org/talks/44/</full_conf_url>
 
                   </event>
                 
@@ -14125,10 +14452,10 @@ In this talk, we will provide an introduction to this approach, explaining the m
                   
                   <event id="148">
                     
-                    <date>2017-08-12T10:45:00+00:00</date>
-                    <start>10:45</start>
+                    <date>2017-08-12T11:00:00+00:00</date>
+                    <start>11:00</start>
                     
-                      <duration>01:00</duration>
+                      <duration>00:45</duration>
                     
                     <room>Buzz</room>
                     <track>Embedded</track>
@@ -14199,10 +14526,10 @@ Yoshitake would also like to discuss how to contribute and collaborate with the 
                   
                   <event id="149">
                     
-                    <date>2017-08-12T11:45:00+00:00</date>
-                    <start>11:45</start>
+                    <date>2017-08-12T12:00:00+00:00</date>
+                    <start>12:00</start>
                     
-                      <duration>01:00</duration>
+                      <duration>00:45</duration>
                     
                     <room>Buzz</room>
                     <track>Embedded</track>
@@ -14683,12 +15010,12 @@ The organization team will say goodbye, give some final indications, and point t
               
                 
                   
-                  <event id="156">
+                  <event id="128">
                     
-                    <date>2017-08-12T10:45:00+00:00</date>
-                    <start>10:45</start>
+                    <date>2017-08-12T11:00:00+00:00</date>
+                    <start>11:00</start>
                     
-                      <duration>01:00</duration>
+                      <duration>00:45</duration>
                     
                     <room>Rex</room>
                     <track>No Track</track>
@@ -14699,16 +15026,14 @@ The organization team will say goodbye, give some final indications, and point t
                     <abstract/>
                     
                       
-                        <title>Lightning Talks</title>
+                        <title>Live Demos</title>
                         
                         
                         
                         
                         
                         
-                          <description>For Those Who Care About Lightning...
-
-As usual, I&#39;m more than happy to host the lightning talk sessions, and therefore am sticking this proposal in so that it&#39;s hopefully got a space.  I&#39;ll make the abstract more useful to attendees closer to the conf.</description>
+                          <description>As a companion piece to the Lightning Talks, I&#39;m also offering Live Demos again this year.  This proposal is a placeholder, and I&#39;ll expand the abstract for maximal usefulness closer to the time.</description>
                         
                         <type>Talk (45 mins)</type>
                         <persons>
@@ -14723,12 +15048,12 @@ As usual, I&#39;m more than happy to host the lightning talk sessions, and there
                         <released>True</released>
                       
                     
-                    <conf_url>/talks/44/</conf_url>
+                    <conf_url>/talks/45/</conf_url>
                     
                     
 
                     
-                    <full_conf_url>https://debconf17.debconf.org/talks/44/</full_conf_url>
+                    <full_conf_url>https://debconf17.debconf.org/talks/45/</full_conf_url>
 
                   </event>
                 
@@ -14752,10 +15077,10 @@ As usual, I&#39;m more than happy to host the lightning talk sessions, and there
                   
                   <event id="157">
                     
-                    <date>2017-08-12T11:45:00+00:00</date>
-                    <start>11:45</start>
+                    <date>2017-08-12T12:00:00+00:00</date>
+                    <start>12:00</start>
                     
-                      <duration>01:00</duration>
+                      <duration>00:45</duration>
                     
                     <room>Rex</room>
                     <track>No Track</track>
@@ -15012,10 +15337,10 @@ Lots of stuff that isn&#39;t going very smoothly in this very loose team. Let&#3
                   
                   <event id="161">
                     
-                    <date>2017-08-12T10:45:00+00:00</date>
-                    <start>10:45</start>
+                    <date>2017-08-12T11:00:00+00:00</date>
+                    <start>11:00</start>
                     
-                      <duration>01:00</duration>
+                      <duration>00:45</duration>
                     
                     <room>Bo</room>
                     <track>Packaging, policy and infrastructure</track>
